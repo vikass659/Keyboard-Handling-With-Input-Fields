@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF560BE52067B9AE001577E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF560BE42067B9AE001577E7 /* AppDelegate.swift */; };
+		BF560BEA2067B9AE001577E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF560BE82067B9AE001577E7 /* Main.storyboard */; };
+		BF560BEC2067B9AE001577E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF560BEB2067B9AE001577E7 /* Assets.xcassets */; };
+		BF560BEF2067B9AE001577E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF560BED2067B9AE001577E7 /* LaunchScreen.storyboard */; };
+		BF560BFA2067B9AF001577E7 /* Keyboard_Handling_With_Input_FieldsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF560BF92067B9AF001577E7 /* Keyboard_Handling_With_Input_FieldsTests.swift */; };
+		BF560C052067B9AF001577E7 /* Keyboard_Handling_With_Input_FieldsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF560C042067B9AF001577E7 /* Keyboard_Handling_With_Input_FieldsUITests.swift */; };
+		BF560C1520680E72001577E7 /* VCSampleForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF560C1420680E72001577E7 /* VCSampleForm.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF560BF62067B9AF001577E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF560BD92067B9AE001577E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF560BE02067B9AE001577E7;
+			remoteInfo = "Keyboard Handling With Input Fields";
+		};
+		BF560C012067B9AF001577E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF560BD92067B9AE001577E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF560BE02067B9AE001577E7;
+			remoteInfo = "Keyboard Handling With Input Fields";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF560BE12067B9AE001577E7 /* Keyboard Handling With Input Fields.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Keyboard Handling With Input Fields.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF560BE42067B9AE001577E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF560BE92067B9AE001577E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF560BEB2067B9AE001577E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF560BEE2067B9AE001577E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF560BF02067B9AE001577E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF560BF52067B9AF001577E7 /* Keyboard Handling With Input FieldsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Keyboard Handling With Input FieldsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF560BF92067B9AF001577E7 /* Keyboard_Handling_With_Input_FieldsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboard_Handling_With_Input_FieldsTests.swift; sourceTree = "<group>"; };
+		BF560BFB2067B9AF001577E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF560C002067B9AF001577E7 /* Keyboard Handling With Input FieldsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Keyboard Handling With Input FieldsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF560C042067B9AF001577E7 /* Keyboard_Handling_With_Input_FieldsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboard_Handling_With_Input_FieldsUITests.swift; sourceTree = "<group>"; };
+		BF560C062067B9AF001577E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF560C1420680E72001577E7 /* VCSampleForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCSampleForm.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF560BDE2067B9AE001577E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF560BF22067B9AF001577E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF560BFD2067B9AF001577E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF560BD82067B9AE001577E7 = {
+			isa = PBXGroup;
+			children = (
+				BF560BE32067B9AE001577E7 /* Keyboard Handling With Input Fields */,
+				BF560BF82067B9AF001577E7 /* Keyboard Handling With Input FieldsTests */,
+				BF560C032067B9AF001577E7 /* Keyboard Handling With Input FieldsUITests */,
+				BF560BE22067B9AE001577E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF560BE22067B9AE001577E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF560BE12067B9AE001577E7 /* Keyboard Handling With Input Fields.app */,
+				BF560BF52067B9AF001577E7 /* Keyboard Handling With Input FieldsTests.xctest */,
+				BF560C002067B9AF001577E7 /* Keyboard Handling With Input FieldsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF560BE32067B9AE001577E7 /* Keyboard Handling With Input Fields */ = {
+			isa = PBXGroup;
+			children = (
+				BF560C1420680E72001577E7 /* VCSampleForm.swift */,
+				BF560BE42067B9AE001577E7 /* AppDelegate.swift */,
+				BF560BE82067B9AE001577E7 /* Main.storyboard */,
+				BF560BEB2067B9AE001577E7 /* Assets.xcassets */,
+				BF560BED2067B9AE001577E7 /* LaunchScreen.storyboard */,
+				BF560BF02067B9AE001577E7 /* Info.plist */,
+			);
+			path = "Keyboard Handling With Input Fields";
+			sourceTree = "<group>";
+		};
+		BF560BF82067B9AF001577E7 /* Keyboard Handling With Input FieldsTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF560BF92067B9AF001577E7 /* Keyboard_Handling_With_Input_FieldsTests.swift */,
+				BF560BFB2067B9AF001577E7 /* Info.plist */,
+			);
+			path = "Keyboard Handling With Input FieldsTests";
+			sourceTree = "<group>";
+		};
+		BF560C032067B9AF001577E7 /* Keyboard Handling With Input FieldsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF560C042067B9AF001577E7 /* Keyboard_Handling_With_Input_FieldsUITests.swift */,
+				BF560C062067B9AF001577E7 /* Info.plist */,
+			);
+			path = "Keyboard Handling With Input FieldsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF560BE02067B9AE001577E7 /* Keyboard Handling With Input Fields */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF560C092067B9AF001577E7 /* Build configuration list for PBXNativeTarget "Keyboard Handling With Input Fields" */;
+			buildPhases = (
+				BF560BDD2067B9AE001577E7 /* Sources */,
+				BF560BDE2067B9AE001577E7 /* Frameworks */,
+				BF560BDF2067B9AE001577E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Keyboard Handling With Input Fields";
+			productName = "Keyboard Handling With Input Fields";
+			productReference = BF560BE12067B9AE001577E7 /* Keyboard Handling With Input Fields.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF560BF42067B9AF001577E7 /* Keyboard Handling With Input FieldsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF560C0C2067B9AF001577E7 /* Build configuration list for PBXNativeTarget "Keyboard Handling With Input FieldsTests" */;
+			buildPhases = (
+				BF560BF12067B9AF001577E7 /* Sources */,
+				BF560BF22067B9AF001577E7 /* Frameworks */,
+				BF560BF32067B9AF001577E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF560BF72067B9AF001577E7 /* PBXTargetDependency */,
+			);
+			name = "Keyboard Handling With Input FieldsTests";
+			productName = "Keyboard Handling With Input FieldsTests";
+			productReference = BF560BF52067B9AF001577E7 /* Keyboard Handling With Input FieldsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF560BFF2067B9AF001577E7 /* Keyboard Handling With Input FieldsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF560C0F2067B9AF001577E7 /* Build configuration list for PBXNativeTarget "Keyboard Handling With Input FieldsUITests" */;
+			buildPhases = (
+				BF560BFC2067B9AF001577E7 /* Sources */,
+				BF560BFD2067B9AF001577E7 /* Frameworks */,
+				BF560BFE2067B9AF001577E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF560C022067B9AF001577E7 /* PBXTargetDependency */,
+			);
+			name = "Keyboard Handling With Input FieldsUITests";
+			productName = "Keyboard Handling With Input FieldsUITests";
+			productReference = BF560C002067B9AF001577E7 /* Keyboard Handling With Input FieldsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF560BD92067B9AE001577E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = VSN;
+				TargetAttributes = {
+					BF560BE02067B9AE001577E7 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					BF560BF42067B9AF001577E7 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BF560BE02067B9AE001577E7;
+					};
+					BF560BFF2067B9AF001577E7 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BF560BE02067B9AE001577E7;
+					};
+				};
+			};
+			buildConfigurationList = BF560BDC2067B9AE001577E7 /* Build configuration list for PBXProject "Keyboard Handling With Input Fields" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF560BD82067B9AE001577E7;
+			productRefGroup = BF560BE22067B9AE001577E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF560BE02067B9AE001577E7 /* Keyboard Handling With Input Fields */,
+				BF560BF42067B9AF001577E7 /* Keyboard Handling With Input FieldsTests */,
+				BF560BFF2067B9AF001577E7 /* Keyboard Handling With Input FieldsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF560BDF2067B9AE001577E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF560BEF2067B9AE001577E7 /* LaunchScreen.storyboard in Resources */,
+				BF560BEC2067B9AE001577E7 /* Assets.xcassets in Resources */,
+				BF560BEA2067B9AE001577E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF560BF32067B9AF001577E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF560BFE2067B9AF001577E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF560BDD2067B9AE001577E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF560C1520680E72001577E7 /* VCSampleForm.swift in Sources */,
+				BF560BE52067B9AE001577E7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF560BF12067B9AF001577E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF560BFA2067B9AF001577E7 /* Keyboard_Handling_With_Input_FieldsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF560BFC2067B9AF001577E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF560C052067B9AF001577E7 /* Keyboard_Handling_With_Input_FieldsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF560BF72067B9AF001577E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF560BE02067B9AE001577E7 /* Keyboard Handling With Input Fields */;
+			targetProxy = BF560BF62067B9AF001577E7 /* PBXContainerItemProxy */;
+		};
+		BF560C022067B9AF001577E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF560BE02067B9AE001577E7 /* Keyboard Handling With Input Fields */;
+			targetProxy = BF560C012067B9AF001577E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF560BE82067B9AE001577E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF560BE92067B9AE001577E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF560BED2067B9AE001577E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF560BEE2067B9AE001577E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF560C072067B9AF001577E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF560C082067B9AF001577E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF560C0A2067B9AF001577E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Keyboard Handling With Input Fields/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VSN.Keyboard-Handling-With-Input-Fields";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BF560C0B2067B9AF001577E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Keyboard Handling With Input Fields/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VSN.Keyboard-Handling-With-Input-Fields";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BF560C0D2067B9AF001577E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Keyboard Handling With Input FieldsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VSN.Keyboard-Handling-With-Input-FieldsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Keyboard Handling With Input Fields.app/Keyboard Handling With Input Fields";
+			};
+			name = Debug;
+		};
+		BF560C0E2067B9AF001577E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Keyboard Handling With Input FieldsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VSN.Keyboard-Handling-With-Input-FieldsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Keyboard Handling With Input Fields.app/Keyboard Handling With Input Fields";
+			};
+			name = Release;
+		};
+		BF560C102067B9AF001577E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Keyboard Handling With Input FieldsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VSN.Keyboard-Handling-With-Input-FieldsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Keyboard Handling With Input Fields";
+			};
+			name = Debug;
+		};
+		BF560C112067B9AF001577E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Keyboard Handling With Input FieldsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VSN.Keyboard-Handling-With-Input-FieldsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Keyboard Handling With Input Fields";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF560BDC2067B9AE001577E7 /* Build configuration list for PBXProject "Keyboard Handling With Input Fields" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF560C072067B9AF001577E7 /* Debug */,
+				BF560C082067B9AF001577E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF560C092067B9AF001577E7 /* Build configuration list for PBXNativeTarget "Keyboard Handling With Input Fields" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF560C0A2067B9AF001577E7 /* Debug */,
+				BF560C0B2067B9AF001577E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF560C0C2067B9AF001577E7 /* Build configuration list for PBXNativeTarget "Keyboard Handling With Input FieldsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF560C0D2067B9AF001577E7 /* Debug */,
+				BF560C0E2067B9AF001577E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF560C0F2067B9AF001577E7 /* Build configuration list for PBXNativeTarget "Keyboard Handling With Input FieldsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF560C102067B9AF001577E7 /* Debug */,
+				BF560C112067B9AF001577E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF560BD92067B9AE001577E7 /* Project object */;
+}
